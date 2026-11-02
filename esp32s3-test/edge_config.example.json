@@ -1,0 +1,8 @@
+{
+  "wifi_ssid": "",
+  "wifi_password": "",
+  "server_url": "http://192.168.1.10:8766",
+  "api_token": "replace-with-a-random-token",
+  "threshold": 0.5,
+  "match_margin": 0.05
+}

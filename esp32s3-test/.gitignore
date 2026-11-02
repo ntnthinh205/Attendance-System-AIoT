@@ -1,0 +1,46 @@
+# ESP-IDF: generated builds and downloaded components
+/build/
+/build-*/
+/managed_components/
+/sdkconfig.old
+/sdkconfig.bak
+
+# Python environments, bytecode and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local Wi-Fi credentials and API tokens
+/edge_config.json
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Face embeddings and attendance data
+/faces.json
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+
+# Logs and local editor/OS files
+*.log
+.DS_Store
+._*
+.idea/
+*.swp
+*.swo
+*~
+
+# Keep sdkconfig, dependencies.lock, partitions.csv, face_quality.json,
+# and edge_config.example.json: these are needed to reproduce the project.

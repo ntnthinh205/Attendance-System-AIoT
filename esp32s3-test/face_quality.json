@@ -1,0 +1,11 @@
+{
+  "min_width_ratio": 0.28,
+  "min_height_ratio": 0.38,
+  "border_ratio": 0.02,
+  "min_detection_score": 0.85,
+  "min_eye_distance_ratio": 0.09,
+  "max_roll_degrees": 12.0,
+  "max_yaw_ratio": 0.18,
+  "min_nose_height_ratio": 0.30,
+  "max_nose_height_ratio": 0.70
+}
